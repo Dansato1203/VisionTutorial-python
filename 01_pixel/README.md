@@ -5,7 +5,7 @@
 ### デジタル画像の仕組み
   
 デジタル画像は小さな点から構成されています。  
-その小さい点のことを**画素(ピクセル)**といいます。  
+その小さい点のことを **画素(ピクセル)** といいます。  
   
 ### 画素(ピクセル)とは？
 
@@ -18,7 +18,7 @@
 画素数が多ければ画像をより細かいところまで写すことができます。  
 余談ですが、画素の密度のことを解像度といいます。  
   
-デジタル画像は小さな点(ピクセル)が集まって構成されているのでクソ細かいドット絵といえばわかりやすいかもしれません。  
+デジタル画像は小さな点(ピクセル)が集まって構成されているので **クソ細かいドット絵** といえばわかりやすいかもしれません。  
   
 ### 画素(ピクセル)の色情報  
 
@@ -35,17 +35,22 @@
 よく耳にする(R, G, B)とは順番が違うので注意が必要です。  
 それぞれの色情報が0 - 256の段階で指定されています。  
   
+<img src=https://github.com/Dansato1203/images/blob/master/VisionTutorial-python/403a31fbeb20a78b22afc654d53b6da0.jpg width=700px>  
+  
 2. HSV色空間
 Hue(色相), Saturation(彩度), Value(明度)で表される色空間です。  
 - Hue(色相)
 色の種類(赤、青、緑とか)を指す。0 - 360の範囲で指定される。  
-<img src=https://github.com/Dansato1203/images/blob/master/VisionTutorial-python/HSV_hue.png width=500px>  
+  
+<img src=https://github.com/Dansato1203/images/blob/master/VisionTutorial-python/HSV_hue.png width=700px>  
   
 - Saturarion(彩度)
 色の鮮やかさの度合いを指す。彩度が高いほど鮮やかな色になる。0 - 100の範囲で指定される。  
-<img src=https://github.com/Dansato1203/images/blob/master/VisionTutorial-python/HSV_saturation.png width=500px>  
+  
+<img src=https://github.com/Dansato1203/images/blob/master/VisionTutorial-python/HSV_saturation.png width=700px>  
   
 - Value(明度)  
 色の明るさの度合いを指す。明度が高いほど明るく白っぽく、低いほど暗く黒っぽくなる。  
-<img src=https://github.com/Dansato1203/images/blob/master/VisionTutorial-python/HSV_value.png width=500px>  
+  
+<img src=https://github.com/Dansato1203/images/blob/master/VisionTutorial-python/HSV_value.png width=700px>  
 
