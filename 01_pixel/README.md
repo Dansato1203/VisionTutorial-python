@@ -61,7 +61,7 @@ Hue(色相), Saturation(彩度), Value(明度)で表される色空間です。
   
 - Value(明度)  
 色の明るさの度合いを指す。明度が高いほど明るく白っぽく、低いほど暗く黒っぽくなる。  
-一般的には0 - 100の班にで指定される。  
+一般的には0 - 100の範囲で指定される。  
 **OpenCVでは 0 - 255 の範囲で表される。**  
   
 <img src=https://github.com/Dansato1203/images/blob/master/VisionTutorial-python/HSV_value.png width=700px>  
