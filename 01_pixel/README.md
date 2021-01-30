@@ -46,17 +46,23 @@
 2. HSV色空間
 Hue(色相), Saturation(彩度), Value(明度)で表される色空間です。  
 - Hue(色相)
-色の種類(赤、青、緑とか)を指す。0 - 360の範囲で指定される。  
+色の種類(赤、青、緑とか)を指す。  
+一般的には0 - 360の範囲で指定される。  
+**OpenCVでは <span style="color: red; ">0 - 179</span> の1/2の範囲で表されるので注意。**  
   
 <img src=https://github.com/Dansato1203/images/blob/master/VisionTutorial-python/HSV_hue.png width=700px>  
   
 - Saturarion(彩度)
-色の鮮やかさの度合いを指す。彩度が高いほど鮮やかな色になる。0 - 100の範囲で指定される。  
+色の鮮やかさの度合いを指す。彩度が高いほど鮮やかな色になる。  
+一般的には0 - 100の範囲で指定される。  
+OpenCVでは **0 - 255** の範囲で表される。  
   
 <img src=https://github.com/Dansato1203/images/blob/master/VisionTutorial-python/HSV_saturation.png width=700px>  
   
 - Value(明度)  
 色の明るさの度合いを指す。明度が高いほど明るく白っぽく、低いほど暗く黒っぽくなる。  
+一般的には0 - 100の班にで指定される。  
+OpenCVでは **0 - 255** の範囲で表される。  
   
 <img src=https://github.com/Dansato1203/images/blob/master/VisionTutorial-python/HSV_value.png width=700px>  
 (上記の画像はMAXが原色のようになっていますが、実際はもっと白っぽくなります。)  
