@@ -33,8 +33,6 @@ def main():
     green = green_extraction(img, hsv_img)
     blue = blue_extraction(img, hsv_img)
 
-    cv2.imwrite('HSV_image.jpg', hsv_img)
-
     cv2.imshow("origin", img)
     cv2.imshow("hsv", hsv_img)
     cv2.imshow("green", green)

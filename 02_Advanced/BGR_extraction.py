@@ -33,6 +33,7 @@ def main():
     green = green_extraction(img)
     blue = blue_extraction(img)
 
+    cv2.imshow("origin", img)
     cv2.imshow("green", green)
     cv2.imshow("blue", blue)
     cv2.waitKey(0)
