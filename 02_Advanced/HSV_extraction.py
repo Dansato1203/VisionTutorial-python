@@ -30,10 +30,10 @@ def main():
 
     img = cv2.imread("images/sea.jpg")
 
-    hsv_img = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
-
     green = green_extraction(img, hsv_img)
     blue = blue_extraction(img, hsv_img)
+
+    cv2.imwrite('HSV_image.jpg', hsv_img)
 
     cv2.imshow("origin", img)
     cv2.imshow("hsv", hsv_img)
