@@ -1,4 +1,4 @@
-# 01_Advanced
+# 02_Advanced
   
 ここでは00_tutrialと01_pixelで学んだ基礎知識を使って、少し発展的な内容に触れます。  
   
