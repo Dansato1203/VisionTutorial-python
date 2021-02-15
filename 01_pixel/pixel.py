@@ -24,8 +24,6 @@ for y in range(height):
     empty_img[y, x] = (b, g, r)
     cv2.imshow("empty", empty_img)
     cv2.waitKey(1)
-    if y == height or x == width:
-      pass
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
