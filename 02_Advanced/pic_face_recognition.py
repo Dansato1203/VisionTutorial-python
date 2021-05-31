@@ -5,7 +5,7 @@ import sys
 import cv2
 import numpy as np
 
-img = cv2.imread("images/sample_face.jpg")
+img = cv2.imread("images/lena.jpeg")
 
 faceCascade = cv2.CascadeClassifier("cascade_file/haarcascade_frontalface_alt2.xml")
 
